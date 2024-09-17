@@ -144,7 +144,7 @@ def vectorRandomGen(size, boundaries):
     boundaries[i*2] will be the lower bound of the vector[i], and boundaries[i*2+1]
     will be the upper bound of the vector[i]. Thus, boundaries must be double in size
     respect to the vector size
-    :param size: Numeber of vector elements
+    :param size: Number of vector elements
     :param boundaries: lower and upper bound of the elements of the vector
     :return: random vector, full of -1 if boundaries size doesn't match the vector size
     """
